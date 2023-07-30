@@ -8,14 +8,64 @@
 
   <body>
 
+    <!-- Хедер -->
+
     <header class="page-header">
 
-      <!-- Логотип-->
+      <!-- Навигация -->
 
-      <a class="header-link" href="#">
-        <img class="header-link-logo" src="#" alt="Лого интернет-магазина Девайс."></a>
+      <nav class="navigation">
+
+        <!-- Логотип -->
+
+        <a class="header-logo" href="#">
+          <img class="header-logo-image" src="#" alt="Лого интернет-магазина Девайс.">
+        </a>
+
+        <!-- Форма поиска по сайту -->
+
+        <div class="form-wrapper">
+
+          <form class="search-form" action="https://echo.htmlacademy.ru/" method="get">
+
+            <label for="search-form-field" class="search-form-label">
+              <span class="visually-hidden">Поиск.</span>
+              <input class="search-form-field" type="text" id="search-form-field" placeholder="Поиск по сайту">
+            </label>
+
+            <button class="header-button" type="submit">Найти</button>
+
+          </form>
+
+          <!-- Навигация по сайту -->
+
+          <ul class="navigation-list">
+
+            <li class="navigation-item-enter">
+              <a class="navigation-link" href="#">Войти
+              </a>
+            </li>
+
+            <li class="navigation-item-compare">
+              <a class="navigation-link" href="#">
+                Сравнить</a>
+            </li>
+
+            <li class="navigation-item-basket">
+              <a class="navigation-link" href="#">
+                <span class="basket-counter">2</span>
+                Корзина</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <!-- Навигация по сайту -->
 
 
+
+      </nav>
 
     </header>
 
